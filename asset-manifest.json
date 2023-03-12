@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/T-Shirt/static/css/main.da6578e7.css",
+    "main.js": "/T-Shirt/static/js/main.10e512ec.js",
+    "static/media/home.jpg": "/T-Shirt/static/media/home.8e3f5c243421e0303bc4.jpg",
+    "static/media/الاسود.jpeg": "/T-Shirt/static/media/الاسود.c16e9534ef5abfec5e8c.jpeg",
+    "static/media/footer.jpg": "/T-Shirt/static/media/footer.94e956c8bfab8370ebf4.jpg",
+    "static/media/01.jpeg": "/T-Shirt/static/media/01.b8e1e8d9adb73422fe45.jpeg",
+    "static/media/الابيض.jpeg": "/T-Shirt/static/media/الابيض.aa9874eea568075be979.jpeg",
+    "index.html": "/T-Shirt/index.html",
+    "main.da6578e7.css.map": "/T-Shirt/static/css/main.da6578e7.css.map",
+    "main.10e512ec.js.map": "/T-Shirt/static/js/main.10e512ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da6578e7.css",
+    "static/js/main.10e512ec.js"
+  ]
+}
