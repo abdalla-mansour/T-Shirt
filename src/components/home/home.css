@@ -1,0 +1,58 @@
+.landing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../../assets/home/home.jpg);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  justify-content: flex-end;
+  padding: 2rem 9%;
+}
+.landing .intro-text {
+  position: absolute;
+  left: 80%;
+  top: 45%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  max-width: 100%;
+}
+.landing .intro-text h1 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+  margin-left: 1rem;
+}
+.landing .intro-text p {
+  font-size: 19px;
+  color: var(--first-color);
+  margin-right: 4.4rem;
+}
+.landing .intro-text .button {
+  padding-left: 5rem;
+  padding-top: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .landing {
+    padding: 2rem;
+    justify-content: center;
+    background-position: right !important;
+  }
+  .landing .intro-text {
+    left: 50%;
+    top: 50%;
+  }
+  .landing .intro-text h1 {
+    font-size: 45px;
+    margin-left: 0;
+  }
+  .landing .intro-text p {
+    margin-right: 0rem;
+    font-size: 15px;
+  }
+  .landing .intro-text .button {
+    padding-left: 0rem;
+  }
+}/*# sourceMappingURL=home.css.map */

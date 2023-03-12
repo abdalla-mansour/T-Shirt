@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --first-color: #73a8c0;
+    --second-color: rgb(102, 148, 163);
+    --box-shadow: 5px 5px 1px 1px rgba(120, 225, 246, 0.2);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    padding-top: 5rem;
+    >h2,
+    >h5 {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    >h2 {
+        color: #73a9c0;
+        margin-bottom: 3rem;
+    }
+}
+
+* {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 75%;
+    margin: 4rem auto;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: var(--first-color);
+    padding: 10px 40px;
+    border: 2px solid var(--second-color);
+    transition: 1s;
+
+    &:hover {
+        border: 0px;
+        box-shadow: 6px 6px 0px 0px var(--first-color), 0 0 8px var(--second-color);
+    }
+}
+
+.btns {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    color: var(--first-color);
+    padding: 10px 40px;
+    border: 0px;
+    box-shadow: 6px 6px 0px 0px var(--first-color), 0 0 8px var(--second-color);
+}

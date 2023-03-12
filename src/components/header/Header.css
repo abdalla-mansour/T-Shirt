@@ -1,0 +1,71 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 9%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+.header .toggle {
+  display: none;
+}
+.header .logo {
+  display: flex;
+  margin-left: auto;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.header .logo img {
+  position: relative;
+  margin-left: 1rem;
+  width: 100px;
+  height: 100px;
+  top: -0.5rem;
+}
+.header .navbar a {
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: 0.5s;
+}
+.header .navbar a:hover {
+  color: var(--first-color);
+}
+.header .icons {
+  position: relative;
+  margin-left: 2rem;
+  top: 0rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    right: 0rem;
+  }
+  .header .navbar ul {
+    display: none;
+  }
+  .header .toggle {
+    position: relative;
+    right: 1rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    background-color: rgba(184, 184, 184, 0.2);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 2s;
+    color: rgba(0, 0, 0, 0.1607843137);
+  }
+  .header .toggle:hover {
+    background-color: rgba(0, 0, 0, 0.1607843137);
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+}/*# sourceMappingURL=Header.css.map */

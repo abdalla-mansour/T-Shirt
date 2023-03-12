@@ -1,0 +1,23 @@
+#footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../../assets/footer/footer.jpg);
+    min-height: 40vh;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    z-index: 10000;
+    position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+    #footer {
+        min-height: 0vh;
+    }
+}
+@media screen and (max-width: 768px) {
+    #footer {
+        padding: 0rem 3rem 1rem 3rem;
+    }
+}
